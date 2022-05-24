@@ -17,5 +17,6 @@ if [[ $1 != "" ]]; then
 fi
 
 echo ".gitignore
+ignore/
 **/main.c
 **/*out" > "$DIR/.gitignore"
